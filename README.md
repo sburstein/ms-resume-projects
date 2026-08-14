@@ -6,15 +6,26 @@ projects.
 
 ## Start here
 
-1. **[`BUILDABILITY.md`](BUILDABILITY.md)** which of the 25 bullets can actually be built, which need
+1. **[`explainers/`](explainers/)** concept-first guides to the four completed projects. Read the
+   matching file in **[`drills/`](drills/)** next and answer each prompt aloud.
+2. **[`BUILDABILITY.md`](BUILDABILITY.md)** which of the 25 bullets can actually be built, which need
    a public proxy, and which are not artifacts at all. Includes a recommended cut.
-2. **[`PLAN.md`](PLAN.md)** the seventeen projects, build order, dependencies, data sources, and
+3. **[`PLAN.md`](PLAN.md)** the seventeen projects, build order, dependencies, data sources, and
    definition of done.
-3. **[`prds/`](prds/)** agent-executable build specs, one per project, with numbered milestones and
+4. **[`prds/`](prds/)** agent-executable build specs, one per project, with numbered milestones and
    binary acceptance criteria. Start with [`prds/00-CONVENTIONS.md`](prds/00-CONVENTIONS.md), then
    hand a PRD to Claude Code one milestone at a time.
-4. **[`knowledge-packets/`](knowledge-packets/)** one packet per project: domain background, data
+5. **[`knowledge-packets/`](knowledge-packets/)** one packet per project: domain background, data
    with gotchas, method, numbers to know cold, and the interview questions you will actually get.
+
+## Completed project explainers
+
+| Project | One concept to remember | Explainer | Drill |
+|---|---|---|---|
+| AI weather benchmark | Neural models replace forecast integration, not data assimilation | [Read](explainers/ai-weather-bench.md) | [Test yourself](drills/ai-weather-bench.md) |
+| Utility affordability | Bills, income, and ownership live at different entity levels | [Read](explainers/utility-affordability.md) | [Test yourself](drills/utility-affordability.md) |
+| Workbook Doctor | Quiet pattern breaks are more dangerous than loud spreadsheet errors | [Read](explainers/workbook-doctor.md) | [Test yourself](drills/workbook-doctor.md) |
+| EDGAR MCP | A normalized concept is a resolved set of tags, periods, and filings | [Read](explainers/edgar-mcp.md) | [Test yourself](drills/edgar-mcp.md) |
 
 ## To start building
 
